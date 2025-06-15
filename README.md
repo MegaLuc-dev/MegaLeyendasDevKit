@@ -1,8 +1,11 @@
 # Bienvenido al Kit de Desarrollo de MegaLeyendas.
 
+Este Kit de Desarrollo es de uso libre, sin embargo, se deben seguir los términos y condiciones de cada plugin y el EULA de Minecraft.
+
 ## Requisitos Minimos para ejecutar en una computadora:
 4+ GB de RAM
 Procesador de 2+ Cores
+Java 21 o superior.
 
 ### Para iniciar el servidor en Windows abre el archivo "iniciar.bat"
 ### Para iniciar en Linux o MacOS, usa el archivo "iniciar.sh".
