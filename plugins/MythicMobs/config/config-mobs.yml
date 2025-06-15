@@ -1,0 +1,23 @@
+Configuration:
+  MobDrops:
+    DefaultDropMethod: VANILLA
+    DoLootsplosionByDefault: false
+    DoHologramNameByDefault: false
+    DoItemGlowByDefault: false
+    DoItemBeamByDefault: false
+    DoItemVFXByDefault: false
+    DefaultItemVFX:
+      Material: POTION
+      Model: 1
+    DoPerPlayerDropsByDefault: false
+    DoClientsideDropsByDefault: false
+    MinimumDamagePercentForDrops: 1%
+    DefaultDeathHologram: []
+    DefaultLeaderboardTimeout: 6000
+    DefaultDeathChatMessage: []
+  MobEggs:
+    Material: PIG_SPAWN_EGG
+    DefaultDisplay: Huevo de <mob.name>
+    DefaultLore:
+    - <dark_gray>Un huevo que invocará a</dark_gray>
+    - <dark_gray><mob.name></dark_gray>

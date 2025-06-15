@@ -1,0 +1,14 @@
+EmpujeEnderman:
+  Cooldown: 30
+  Conditions:
+  - targetwithin{d=3} true
+  Skills:
+  - skill{skill=EmpujeInicioEnderman} @target
+EmpujeInicioEnderman:
+  Skills:
+  - stun{d=30} @self
+  - sound{s=item.shield.break;v=10;p=1.5} @SelfLocation
+  - effect:particlesphere{particle=redstone;amount=300;radius=3;color=#FFFFFF} @SelfLocation
+  - damage{a=20}
+  - throw{velocity=35;velocityY=0}
+  - velocity{m=multiply;x=1;y=0;z=1}

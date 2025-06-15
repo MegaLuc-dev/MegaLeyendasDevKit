@@ -1,0 +1,14 @@
+MegaEnderman:
+  Type: ENDERMAN #Tipo de Mob Base
+  Display: '&dMega Enderman' #Nombre que se mostrará del mob.
+  Health: 10 #Puntos de vida (En este caso, 5 corazones).
+  Damage: 6 #Puntos de Daño (En este caso, 3 corazones).
+  Drops: #¿Que suelta el Mob?
+  - grass_block 2 1 #En este caso tiene un 100% de probabiliad de soltar 2 bloques de pasto.
+  - iron_sword 1 0.6 #En este caso tiene 60% de probabilidad de soltar una espada de hierro.
+  - stick 2-4 0.3 #En este caso tiene un 30% de probabilidad de soltar entre 2 y 4 palos.
+  # A partir de acá deberás leer la Wiki para entender que hacen estas opciones más complejas... https://git.mythiccraft.io/mythiccraft/MythicMobs/-/wikis/home
+  Skills:
+  - skill{s=EmpujeEnderman} @self ~onTimer:80 #Skill en el archivo Skills.yml
+  Options:
+    PreventOtherDrops: true
