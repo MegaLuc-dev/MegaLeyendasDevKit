@@ -26,10 +26,10 @@ Wiki de WorldEdit: https://worldedit.enginehub.org/en/latest/commands/
 Página de ItemEdit: https://www.spigotmc.org/resources/itemedit-1-8-x-1-21-x.40993/
 
 ## ¿Que hace cada plugin?
-WorldEdit: Es una herramienta para construir.
-MythicMobs: Te permite crear Mobs y Jefes personalizados.
-LibsDisguises: Se encarga de importar las skins a los Mobs y Jefes de MythicMobs.
-ItemEdit: Te ayuda a crear items con fácilidad.
+- WorldEdit: Es una herramienta para construir.
+- MythicMobs: Te permite crear Mobs y Jefes personalizados.
+- LibsDisguises: Se encarga de importar las skins a los Mobs y Jefes de MythicMobs.
+- ItemEdit: Te ayuda a crear items con fácilidad.
 
 ## Versión de este Kit: 0.0.1
 ## ¿Será actualizado a futuro?
