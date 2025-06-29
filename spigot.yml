@@ -11,12 +11,13 @@
 # Forums: http://www.spigotmc.org/
 
 messages:
-  whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
-  restart: Server is restarting
+  whitelist: '&1[&bM&2L&7DevKit&1] No estás en la WhiteList.'
+  unknown-command: '&1[&bM&2L&7DevKit&1] Comando desconocido, escribe "/help" para
+    ayuda.'
+  server-full: '&1[&bM&2L&7DevKit&1] El servidor está lleno.'
+  outdated-client: '&1[&bM&2L&7DevKit&1] Cliente desactualizado, usa {0}'
+  outdated-server: '&1[&bM&2L&7DevKit&1] Servidor desactualizado, sigo en {0}'
+  restart: '&1[&bM&2L&7DevKit&1] Servidor en reinicio.'
 settings:
   bungeecord: false
   save-user-cache-on-stop-only: false

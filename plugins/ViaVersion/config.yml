@@ -28,6 +28,8 @@ block-disconnect-msg: ¡Tu versión de Minecraft no está soportada!
 reload-disconnect-msg: ¡Servidor reiniciandose!
 # We warn when there's an error converting item/block or component/nbt data over versions, should we suppress these? (Only suggested if spamming)
 suppress-conversion-warnings: false
+# This can be disabled for debugging purposes if text in chat/entities/items shows an error tag.
+suppress-text-component-conversion-warnings: true
 #
 #----------------------------------------------------------#
 #                  GLOBAL PACKET LIMITER                   #
